@@ -1,27 +1,23 @@
-<?xml version="1.0" ?>
-<svg xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink">
-    <rect x="0" y="0" width="32" height="32" fill="#ff0000" />
-    <rect x="15" y="6" width="1" height="1" fill="#c0c0c0" />
-    <polygon points="14,7 15,7 15,10 16,10 16,12 14,12 14,11 12,11 12,10 11,10 11,9 13,9 13,8 14,8" fill="#0e82fb" />
-    <rect x="15" y="7" width="1" height="2" fill="#ffffff" />
-    <rect x="16" y="7" width="1" height="3" fill="#808080" />
-    <polygon points="17,7 18,7 18,8 19,8 19,9 20,9 20,10 19,10 19,11 18,11 18,12 16,12 16,10 17,10" fill="#005ab8" />
-    <rect x="10" y="8" width="1" height="2" fill="#36a8fc" />
-    <polygon points="21,8 22,8 22,10 21,10 21,11 20,11 20,13 19,13 19,12 18,12 18,11 19,11 19,10 20,10 20,9 21,9" fill="#013e79" />
-    <rect x="15" y="9" width="1" height="1" fill="#c0c0c0" />
-    <rect x="11" y="10" width="1" height="1" fill="#36a8fc" />
-    <rect x="12" y="11" width="1" height="1" fill="#36a8fc" />
-    <rect x="13" y="11" width="1" height="1" fill="#005ab8" />
-    <rect x="12" y="12" width="1" height="1" fill="#005ab8" />
-    <rect x="13" y="12" width="1" height="1" fill="#808080" />
-    <rect x="14" y="12" width="2" height="1" fill="#005ab8" />
-    <rect x="16" y="12" width="2" height="1" fill="#013e79" />
-    <rect x="18" y="12" width="1" height="2" fill="#808080" />
-    <rect x="13" y="13" width="1" height="1" fill="#ffffff" />
-    <rect x="14" y="13" width="1" height="1" fill="#334a0d" />
-    <rect x="15" y="13" width="2" height="1" fill="#b9835f" />
-    <rect x="17" y="13" width="1" height="1" fill="#334a0d" />
-    <rect x="22" y="13" width="2" height="1" fill="#36a8fc" />
-    <rect x="24" y="13" width="1" height="1" fill="#005ab8" />
+<?xml version="1.0" standalone="no"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" preserveAspectRatio="none" buffered-rendering="static" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" shape-rendering="crispEdges" >
+<desc >
+This file was created by http://www.h2.dion.ne.jp/~defghi/dot2svg/dot2svg2.htm at Sun Jul 27 2014 23:33:22 GMT+0900 (JST)
+</desc>
+<path fill="#ff0000" d="M0,0h32v32h-32zM16,6h-1v1h-1v1h-1v1h-2v-1h-1v2h1v1h1v2h1v1h-3v1h1v2h-1v1h-2v2h-2v1h-3v1h4v-1h5v1h1v1h-1v1h3v-2h2v2h3v-1h-1v-1h1v-1h1v1h1v1h3v-1h1v-8h-1v-1h-3v1h-3v-1h1v-2h1v-1h1v-2h-1v1h-2v-1h-1v-1h-2zM12,18h1v1h-1v1h-1v-1h1zM19,18h1v1h-1v-1z" />
+<path fill="#c0c0c0" d="M15,6h1v1h-1zM15,9h1v1h-1zM22,17h1v1h1v1h-1v-1h-1zM13,18h2v1h-2zM16,18h1v1h-1zM6,20h2v1h-1v1h-1zM12,21h2v1h-2zM17,21h1v1h-1v-1z" />
+<path fill="#0e82fb" d="M14,7h1v3h1v2h-2v-1h-2v-1h-1v-1h2v-1h1zM12,14h1v1h1v1h2v2h-2v-2h-1v-1h-1zM23,15h1v3h-1v-1h-1v-1h1zM8,19h1v1h-1zM13,19h1v1h-1v1h-1v-1h1zM15,19h1v3h-1zM23,20h1v1h-1zM13,22h1v1h-1v1h-1v-1h1v-1z" />
+<path fill="#ffffff" d="M15,7h1v2h-1zM13,13h1v1h-1zM15,18h1v1h-1zM3,21h3v1h-3v-1z" />
+<path fill="#808080" d="M16,7h1v3h-1zM13,12h1v1h-1zM18,12h1v2h-1zM25,17h1v1h-1v1h-1v1h-1v-1h-1v-1h1v1h1v-1h1zM11,18h1v1h-1zM17,18h2v1h-2zM14,21h1v1h-1zM18,21h2v1h-2v-1z" />
+<path fill="#005ab8" d="M17,7h1v1h1v1h1v1h-1v1h-1v1h-2v1h-2v-1h-1v1h-1v-1h1v-1h1v1h2v-2h1zM24,13h1v1h-1zM19,14h1v2h-1v1h-1v1h-2v-2h-2v-1h2v1h3zM11,15h1v1h1v1h1v1h-2v-2h-1zM24,15h1v1h1v1h-1v1h1v1h-1v4h-2v-1h1v-3h1v-1h-1zM16,19h1v3h1v2h-1v-2h-1zM18,19h1v1h1v1h-1v-1h-1zM8,20h1v1h-1zM14,22h1v2h-2v-1h1v-1z" />
+<path fill="#36a8fc" d="M10,8h1v2h1v1h1v1h-1v-1h-1v-1h-1zM22,13h2v1h-2v2h-1v4h1v2h1v1h-1v-1h-1v-2h-1v-5h1v-1h1zM10,14h2v1h1v1h1v1h-1v-1h-1v-1h-2zM12,19h1v1h-1v1h-1v-1h1v-1z" />
+<path fill="#013e79" d="M21,8h1v2h-1v1h-1v2h-1v-1h-1v1h-2v-1h2v-1h1v-1h1v-1h1zM20,14h1v1h-1zM22,14h4v2h-1v-1h-2v1h-1v3h1v2h1v1h-2v-2h-1v1h-1v-1h-1v1h-2v-2h1v1h1v-1h1v1h1v-4h1zM16,15h3v1h1v2h-2v-1h1v-1h-3zM14,19h1v2h-2v-1h1zM25,19h1v3h-1zM18,22h1v1h1v1h-2v-2z" />
+<path fill="#334a0d" d="M14,13h1v1h-1zM17,13h1v1h-1v-1z" />
+<path fill="#b9835f" d="M15,13h2v1h-2zM13,14h1v1h-1zM18,14h1v1h-1zM11,16h1v2h-1v-2z" />
+<path fill="#ffc39e" d="M14,14h2v1h-2zM10,17h1v1h-1v1h-1v-1h1v-1z" />
+<path fill="#d19a7b" d="M16,14h2v1h-2zM10,18h1v2h-1v1h-1v-1h1v-2z" />
+<path fill="#00ff81" d="M8,18h1v1h1v1h-1v-1h-1v-1z" />
+<path fill="#008f54" d="M10,20h1v1h-1v-1z" />
+<desc >
+色数:14
+</desc>
 </svg>
