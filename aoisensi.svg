@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <rect x="0" y="0" width="32" height="32" fill="#ff0000" />
+    <rect x="15" y="6" width="1" height="1" fill="#c0c0c0" />
+    <polygon points="14,7 15,7 15,10 16,10 16,12 14,12 14,11 12,11 12,10 11,10 11,9 13,9 13,8 14,8" fill="#0e82fb" />
+    <rect x="15" y="7" width="1" height="2" fill="#ffffff" />
+    <rect x="16" y="7" width="1" height="3" fill="#808080" />
+    <polygon points="17,7 18,7 18,8 19,8 19,9 20,9 20,10 19,10 19,11 18,11 18,12 16,12 16,10 17,10" fill="#005ab8" />
+    <rect x="10" y="8" width="1" height="2" fill="#36a8fc" />
+    <polygon points="21,8 22,8 22,10 21,10 21,11 20,11 20,13 19,13 19,12 18,12 18,11 19,11 19,10 20,10 20,9 21,9" fill="#013e79" />
+    <rect x="15" y="9" width="1" height="1" fill="#c0c0c0" />
+    <rect x="11" y="10" width="1" height="1" fill="#36a8fc" />
+    <rect x="12" y="11" width="1" height="1" fill="#36a8fc" />
+    <rect x="13" y="11" width="1" height="1" fill="#005ab8" />
+    <rect x="12" y="12" width="1" height="1" fill="#005ab8" />
+    <rect x="13" y="12" width="1" height="1" fill="#808080" />
+    <rect x="14" y="12" width="2" height="1" fill="#005ab8" />
+    <rect x="16" y="12" width="2" height="1" fill="#013e79" />
+    <rect x="18" y="12" width="1" height="2" fill="#808080" />
+    <rect x="13" y="13" width="1" height="1" fill="#ffffff" />
+    <rect x="14" y="13" width="1" height="1" fill="#334a0d" />
+    <rect x="15" y="13" width="2" height="1" fill="#b9835f" />
+    <rect x="17" y="13" width="1" height="1" fill="#334a0d" />
+    <rect x="22" y="13" width="2" height="1" fill="#36a8fc" />
+    <rect x="24" y="13" width="1" height="1" fill="#005ab8" />
+</svg>
