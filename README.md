@@ -3,7 +3,7 @@ Hi.
 
 My name is __aoisensi__.
 
-![aoisensi](aoisensi128.png)
+![aoisensi](aoisensi128px.png)
 
 aoiseɴɕi
 
