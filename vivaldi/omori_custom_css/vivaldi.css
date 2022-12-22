@@ -1,4 +1,7 @@
-#tabs-tabbar-container, .toolbar, #bookmark-bar, #panels-container, footer {
+#browser, #header, #tabs-tabbar-container, #panels-container, footer {
+    background-color: transparent !important;
+}
+#app {
     background-image: url(./space_parallax.png) !important;
     background-size: 1023px 397px !important;
     animation: space-parallax 32s infinite linear;
@@ -15,10 +18,20 @@
 }
 
 @font-face {
-    font-family: 'HuiFont29';
-    src: url(./HuiFont29.ttf);
+    font-family: 'HuiFontP29';
+    src: url('./HuiFontP29.ttf');
 }
 
-#browser {
-    font-family: HuiFont29;
+#browser:lang(ja),
+#browser + div:lang(ja),
+#browser + div + div:lang(ja),
+#browser button:lang(ja),
+#browser input:lang(ja),
+#browser select:lang(ja),
+#browser textarea:lang(ja) {
+    font-family: 'HuiFontP29' !important;
+}
+
+body {
+    font-family: 'HuiFontP29' !important;
 }
