@@ -1,27 +1,45 @@
+@charset "UTF-8";
+/* Animate background */
 #browser, #header, #tabs-tabbar-container, #panels-container, footer {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
+
 #app {
-    background-image: url(./space_parallax.png) !important;
-    background-size: 1023px 397px !important;
-    animation: space-parallax 32s infinite linear;
-    image-rendering: pixelated;
+  background-image: url(./space_parallax.png) !important;
+  background-size: 1023px 397px !important;
+  -webkit-animation: space-parallax 32s infinite linear;
+          animation: space-parallax 32s infinite linear;
+  -ms-interpolation-mode: nearest-neighbor;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: pixelated;
+}
+
+footer {
+  box-shadow: none !important;
+}
+
+@-webkit-keyframes space-parallax {
+  0% {
+    background-position-x: 1023px;
+  }
+  100% {
+    background-position-x: 0px;
+  }
 }
 
 @keyframes space-parallax {
-    0% {
-        background-position-x: 1023px;
-    }
-    100% {
-        background-position-x: 0px;
-    }
+  0% {
+    background-position-x: 1023px;
+  }
+  100% {
+    background-position-x: 0px;
+  }
 }
-
+/* UI fonts */
 @font-face {
-    font-family: 'HuiFontP29';
-    src: url('./HuiFontP29.ttf');
+  font-family: "HuiFontP29";
+  src: url("./HuiFontP29.ttf");
 }
-
 #browser:lang(ja),
 #browser + div:lang(ja),
 #browser + div + div:lang(ja),
@@ -29,9 +47,103 @@
 #browser input:lang(ja),
 #browser select:lang(ja),
 #browser textarea:lang(ja) {
-    font-family: 'HuiFontP29' !important;
+  font-family: "HuiFontP29" !important;
 }
 
 body {
-    font-family: 'HuiFontP29' !important;
+  font-family: "HuiFontP29" !important;
 }
+
+/* Toolbar buttons */
+.button-toolbar {
+  /* Back and Forward */
+  /* Rewind and FastForward */
+  /* Reload */
+  /* Home */
+}
+.button-toolbar button[name=Back], .button-toolbar button[name=Forward] {
+  background-image: url("./name_cursor.png");
+  width: 42px;
+}
+.button-toolbar button[name=Back] span, .button-toolbar button[name=Forward] span {
+  visibility: hidden;
+}
+.button-toolbar button[name=Back] {
+  transform: scaleX(-1);
+}
+.button-toolbar button[name=Back]:hover {
+  -webkit-animation: hover-arrow 0.2s infinite alternate ease-in-out;
+          animation: hover-arrow 0.2s infinite alternate ease-in-out;
+}
+.button-toolbar button[name=Forward]:hover {
+  animation: hover-arrow 0.2s infinite alternate-reverse ease-in-out;
+}
+.button-toolbar button[name=Rewind], .button-toolbar button[name=FastForward] {
+  background-image: url("./red_hand.png");
+  background-repeat: repeat;
+  width: 34px;
+  -webkit-animation: hover-hand 0.5s steps(2, start) infinite;
+          animation: hover-hand 0.5s steps(2, start) infinite;
+}
+.button-toolbar button[name=Rewind] span, .button-toolbar button[name=FastForward] span {
+  visibility: hidden;
+}
+.button-toolbar button[name=Rewind]:not(:hover), .button-toolbar button[name=FastForward]:not(:hover) {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.button-toolbar button[name=Rewind] {
+  transform: scaleX(-1);
+}
+.button-toolbar button[name=Reload] {
+  background-image: url("./melon.png");
+}
+.button-toolbar button[name=Reload][title=Cancel], .button-toolbar button[name=Reload][title=中止する] {
+  background-image: url("./melon_gone.png");
+}
+.button-toolbar button[name=Reload] span {
+  visibility: hidden;
+}
+.button-toolbar button[name=Home] {
+  background-image: url("./picnic_basket.png");
+}
+.button-toolbar button[name=Home] span {
+  visibility: hidden;
+}
+.button-toolbar button:disabled {
+  opacity: 25%;
+}
+
+@-webkit-keyframes hover-arrow {
+  0% {
+    background-position-x: left;
+  }
+  100% {
+    background-position-x: right;
+  }
+}
+
+@keyframes hover-arrow {
+  0% {
+    background-position-x: left;
+  }
+  100% {
+    background-position-x: right;
+  }
+}
+@-webkit-keyframes hover-hand {
+  0% {
+    background-position-x: 0px;
+  }
+  100% {
+    background-position-x: -64px;
+  }
+}
+@keyframes hover-hand {
+  0% {
+    background-position-x: 0px;
+  }
+  100% {
+    background-position-x: -64px;
+  }
+}/*# sourceMappingURL=vivaldi.css.map */

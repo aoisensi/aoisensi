@@ -1,0 +1,132 @@
+/* Animate background */
+
+#browser, #header, #tabs-tabbar-container, #panels-container, footer {
+  background-color: transparent !important;
+}
+
+#app {
+  background-image: url(./space_parallax.png) !important;
+  background-size: 1023px 397px !important;
+  animation: space-parallax 32s infinite linear;
+  image-rendering: pixelated;
+}
+
+footer {
+  box-shadow: none !important;
+}
+
+@keyframes space-parallax {
+    0% {
+        background-position-x: 1023px;
+    }
+    100% {
+        background-position-x: 0px;
+    }
+}
+
+/* UI fonts */
+
+@font-face {
+  font-family: 'HuiFontP29';
+  src: url('./HuiFontP29.ttf');
+}
+
+#browser:lang(ja),
+#browser + div:lang(ja),
+#browser + div + div:lang(ja),
+#browser button:lang(ja),
+#browser input:lang(ja),
+#browser select:lang(ja),
+#browser textarea:lang(ja) {
+  font-family: 'HuiFontP29' !important;
+}
+
+body {
+  font-family: 'HuiFontP29' !important;
+}
+
+/* Toolbar buttons */
+
+.button-toolbar {
+  /* Back and Forward */
+  button[name='Back'],button[name='Forward'] {
+    background-image: url('./name_cursor.png');
+    width: 42px;
+    span {
+      visibility: hidden;
+    }
+  }
+
+  button[name='Back'] {
+    transform: scaleX(-1);
+  }
+
+  button[name='Back']:hover {
+    animation: hover-arrow 0.2s infinite alternate ease-in-out;
+  }
+
+  button[name='Forward']:hover {
+    animation: hover-arrow 0.2s infinite alternate-reverse ease-in-out;
+  }
+
+  /* Rewind and FastForward */
+  button[name='Rewind'],button[name='FastForward'] {
+    background-image: url('./red_hand.png');
+    background-repeat: repeat;
+    width: 34px;
+    animation: hover-hand 0.5s steps(2, start) infinite;
+
+    span {
+      visibility: hidden;
+    }
+
+    &:not(:hover) {
+      animation-play-state: paused;
+    }
+  }
+
+  button[name='Rewind'] {
+    transform: scaleX(-1);
+  }
+
+  /* Reload */
+  button[name='Reload'] {
+    background-image: url('./melon.png');
+    &[title='Cancel'], &[title='中止する'] {
+      background-image: url('./melon_gone.png');
+    }
+    span {
+      visibility: hidden;
+    }
+  }
+
+  /* Home */
+  button[name='Home'] {
+    background-image: url('./picnic_basket.png');
+    span {
+      visibility: hidden;
+    }
+  }
+
+  button:disabled {
+    opacity: 25%;
+  }
+}
+
+@keyframes hover-arrow {
+  0% {
+    background-position-x: left;
+  }
+  100% {
+    background-position-x: right;
+  }
+}
+
+@keyframes hover-hand {
+  0% {
+    background-position-x: 0px;
+  }
+  100% {
+    background-position-x: -64px;
+  }
+}
