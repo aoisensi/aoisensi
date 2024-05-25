@@ -20,7 +20,6 @@ Living in Kobe Hyogo Japan
 ### Computer Science
 
 - Golang
-- Unreal Engine
 - Flutter
 
 ### Video Game
@@ -32,8 +31,8 @@ Living in Kobe Hyogo Japan
 #### Singleplayer
 - OMORI
 - OneShot
+- Celeste
 - Half-Life
-- Saints Row
 - Portal
 - 428
 - FEZ
