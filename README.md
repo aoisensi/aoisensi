@@ -11,7 +11,7 @@ Call me Aoi-San or Senshi-San
 
 (not Aoisensi, like iPhone)
 
-1996-01-03 Male Japanese
+01-03 Male Japanese
 
 Living in Kobe Hyogo Japan
 
